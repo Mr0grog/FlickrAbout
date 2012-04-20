@@ -49,7 +49,7 @@ document.addEventListener("DOMContentLoaded", function() {
       img.src = info.source;
 
       img.style.display = "none";
-      figure.style.background = "url(" + info.source + ")";
+      figure.style.backgroundImage = "url(" + info.source + ")";
       if (info.width > info.height) {
         img.style.height = "100%";
         img.style.width = "";
