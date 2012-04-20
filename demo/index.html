@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>Find a Photo About…</title>
+		<style>
+			article, aside, dialog, figure, footer, header,
+			hgroup, menu, nav, section { display: block; }
+		</style>
+		<link rel="stylesheet" href="demo.css" type="text/css" media="screen" />
+		<script src="../src/flickrAbout.js" type="text/javascript" charset="utf-8"></script>
+		<script src="demo.js" type="text/javascript" charset="utf-8"></script>
+	</head>
+	<body>
+	  
+	  <div id="search">
+	    <form id="search-form" action="#" method="get">
+	      <h1><label for="search-field">Find a photo of:</label></h1>
+	      <input type="search" id="search-field" value="Graffiti" autofocus="true" />
+	      <label for="search-in-field">In:</label>
+	      <select id="search-in-field">
+	        <option value="">Planet Earth</option>
+	        <option value="2379574">Chicago</option>
+	        <option value="12588678">Baltimore</option>
+	        <option value="2367105">Boston</option>
+	        <option value="2514815">Washington, DC</option>
+	        <option value="2471217">Philadelphia</option>
+	        <option value="2488853">Santa Cruz</option>
+	        <option value="12590014">Austin</option>
+	        <option value="2423945">Honolulu</option>
+	        <option value="12587963">Macon</option>
+	        <option value="2458833">New Orleans</option>
+	        <option value="2391585">Detroit</option>
+	        <option value="2459115">New York City</option>
+	        <option value="2487956">San Francisco</option>
+	      </select>
+        <!-- <input type="text" id="search-in-field" placeholder="WOE ID" /> -->
+	      <input id="search-button" type="submit" value="Find!" />
+	      <img id="loader" src="ajax-loader.gif" />
+	    </form>
+	  </div>
+		
+		<figure id="found-image">
+		  <img src="" />
+		  <figcaption></figcaption>
+		</figure>
+		
+	</body>
+</html>
