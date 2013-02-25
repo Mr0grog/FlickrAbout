@@ -82,8 +82,8 @@ document.addEventListener("DOMContentLoaded", function() {
   var form = document.getElementById("search-form");
   form.addEventListener("submit", function(event) {
     event.preventDefault();
-    doSearch();
     setLoaderVisible(true);
+    doSearch();
   }, false);
   
   // geo support
