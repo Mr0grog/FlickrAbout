@@ -4,7 +4,7 @@ var flickrAbout = {
   PREFERRED_WIDTH: 1000,
   
   // but not these
-  BASE_URL: "http://api.flickr.com/services/rest/?",
+  BASE_URL: "https://api.flickr.com/services/rest/?",
   
   _searchCache: {},
   _imageInfo: {},
